@@ -1,0 +1,59 @@
+{
+  "schema_version": "v5.0",
+  "coordinate_system": "ASSEMBLY_GLOBAL",
+  "life_target": {
+    "operating_hours": 10000,
+    "starts": 20000,
+    "reliability_target": 0.99
+  },
+  "load_cases": [
+    {
+      "id": "LC-NOMINAL",
+      "description": "Nominal steady operation",
+      "category": "normal",
+      "frequency": "continuous",
+      "duration_s": 3600,
+      "loads": [
+        {
+          "type": "torque",
+          "value": 100.0,
+          "unit": "N*m",
+          "application": "input shaft",
+          "direction": [0, 0, 1],
+          "uncertainty_fraction": 0.1,
+          "source": "INPUT-001"
+        }
+      ],
+      "speed_rpm": 1500,
+      "temperature_degC": 40,
+      "required_checks": [
+        "static strength",
+        "fatigue",
+        "bearing life",
+        "gear capacity"
+      ]
+    },
+    {
+      "id": "LC-JAM",
+      "description": "Credible jam or stall",
+      "category": "abnormal",
+      "frequency": "rare",
+      "duration_s": 1,
+      "loads": [
+        {
+          "type": "torque",
+          "value": 250.0,
+          "unit": "N*m",
+          "application": "input shaft",
+          "direction": [0, 0, 1],
+          "uncertainty_fraction": 0.15,
+          "source": "Credible jam requirement"
+        }
+      ],
+      "required_checks": [
+        "yield",
+        "fastener integrity"
+      ]
+    }
+  ]
+}

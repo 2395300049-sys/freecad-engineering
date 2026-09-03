@@ -1,0 +1,26 @@
+{
+  "schema": "freecad.public-release-contract/v8",
+  "repository": {
+    "owner": "",
+    "name": "",
+    "visibility": "PUBLIC"
+  },
+  "authorized_scope": [
+    "skill_instructions",
+    "reusable_scripts",
+    "templates",
+    "agent_metadata",
+    "repository_documentation"
+  ],
+  "excluded_scope": [
+    "user_drawings",
+    "user_cad",
+    "source_evidence",
+    "task_outputs",
+    "credentials",
+    "machine_paths"
+  ],
+  "license_grant_authorized": false,
+  "authorized_by": "user",
+  "authorization_record": "explicit request in current task"
+}

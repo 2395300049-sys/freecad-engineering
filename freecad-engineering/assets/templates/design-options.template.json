@@ -1,0 +1,61 @@
+{
+  "schema_version": "v5.0",
+  "criteria": [
+    {
+      "id": "cost",
+      "weight": 0.25,
+      "direction": "min"
+    },
+    {
+      "id": "lead_time_days",
+      "weight": 0.2,
+      "direction": "min"
+    },
+    {
+      "id": "efficiency",
+      "weight": 0.25,
+      "direction": "max"
+    },
+    {
+      "id": "technical_risk",
+      "weight": 0.3,
+      "direction": "min"
+    }
+  ],
+  "hard_constraints": [
+    {
+      "field": "envelope_width_mm",
+      "operator": "<=",
+      "value": 300
+    },
+    {
+      "field": "safety_factor",
+      "operator": ">=",
+      "value": 1.5
+    }
+  ],
+  "options": [
+    {
+      "id": "OPTION-A",
+      "values": {
+        "cost": 1000,
+        "lead_time_days": 20,
+        "efficiency": 0.9,
+        "technical_risk": 2,
+        "envelope_width_mm": 250,
+        "safety_factor": 1.8
+      }
+    },
+    {
+      "id": "OPTION-B",
+      "values": {
+        "cost": 900,
+        "lead_time_days": 30,
+        "efficiency": 0.85,
+        "technical_risk": 3,
+        "envelope_width_mm": 280,
+        "safety_factor": 1.6
+      }
+    }
+  ]
+}

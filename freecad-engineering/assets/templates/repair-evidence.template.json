@@ -1,0 +1,35 @@
+{
+  "schema": "freecad.repair-evidence/v8",
+  "repair_id": "REPAIR-001",
+  "operation": "",
+  "reason": "",
+  "thresholds": {
+    "bounds_abs_mm": 0.001,
+    "volume_drift_ppm": 1.0,
+    "center_abs_mm": 0.001,
+    "require_same_solid_count": true,
+    "require_same_placement": true
+  },
+  "before": {
+    "valid": false,
+    "solid_count": 1,
+    "bounds_mm": [0, 0, 0, 1, 1, 1],
+    "volume_mm3": 1.0,
+    "center_mm": [0.5, 0.5, 0.5],
+    "placement": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0]
+  },
+  "after": {
+    "valid": true,
+    "solid_count": 1,
+    "bounds_mm": [0, 0, 0, 1, 1, 1],
+    "volume_mm3": 1.0,
+    "center_mm": [0.5, 0.5, 0.5],
+    "placement": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0]
+  },
+  "critical_dimensions": [],
+  "approval": {
+    "required": false,
+    "approved": false,
+    "authority": null
+  }
+}

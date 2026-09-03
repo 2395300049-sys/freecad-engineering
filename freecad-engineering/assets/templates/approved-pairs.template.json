@@ -1,0 +1,13 @@
+{
+  "approved_pairs": [
+    {
+      "left": "bolt occurrence regex",
+      "right": "threaded feature occurrence regex",
+      "classifications": [
+        "contact",
+        "interference"
+      ],
+      "reason": "Simplified threaded engagement verified against drawing and BOM"
+    }
+  ]
+}

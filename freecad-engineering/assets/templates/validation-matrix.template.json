@@ -1,0 +1,29 @@
+{
+  "schema_version": "v5.0",
+  "project": "PROJECT-ID",
+  "revision": "A",
+  "gates": [
+    {
+      "id": "inputs",
+      "status": "pass",
+      "evidence": [
+        "01_设计输入与标准_v5.0/design-input.json"
+      ],
+      "owner": "System engineer",
+      "date": "2030-01-01",
+      "blocking_issues": []
+    },
+    {
+      "id": "native-assembly",
+      "status": "conditional",
+      "evidence": [],
+      "owner": "Mechanical engineer",
+      "date": "2030-01-01",
+      "blocking_issues": [
+        "Motion-limit definition pending"
+      ],
+      "deviation_approval": "APPROVAL-ID",
+      "closure_date": "2030-01-15"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "freecad.change-request/v8",
+  "request_id": "CR-001",
+  "source_locator": {
+    "file_role": "marked_image",
+    "page_or_region": "page 1, pixel region [x0,y0,x1,y1]"
+  },
+  "target": {
+    "part": "",
+    "occurrence": "",
+    "feature": "",
+    "parameters": []
+  },
+  "requested_difference": "",
+  "authority": "user_marked_correction",
+  "uncertainties": [],
+  "connected_interfaces": [],
+  "affected_gates": [],
+  "before_revision": "",
+  "after_revision": "",
+  "status": "open"
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "v5.0",
+  "currency": "CNY",
+  "estimate_date": "2030-01-01",
+  "parts": [
+    {
+      "part_number": "PART-001",
+      "description": "Example machined part",
+      "batch_quantity": 20,
+      "finished_mass_kg": 2.5,
+      "blank_mass_kg": 3.2,
+      "material_cost_per_kg": 12.0,
+      "material_scrap_recovery_per_kg": 2.0,
+      "operations": [
+        {
+          "name": "CNC milling",
+          "setup_time_h": 2.0,
+          "cycle_time_h_per_part": 0.5,
+          "machine_rate_per_h": 180.0,
+          "labor_rate_per_h": 60.0,
+          "labor_fraction": 0.3,
+          "tooling_batch_cost": 300.0
+        }
+      ],
+      "subcontract_cost_per_part": 50.0,
+      "inspection_time_h_per_part": 0.2,
+      "inspection_rate_per_h": 100.0,
+      "assembly_cost_per_part": 0.0,
+      "packaging_cost_per_part": 10.0,
+      "overhead_fraction": 0.15,
+      "contingency_fraction": 0.1
+    }
+  ]
+}

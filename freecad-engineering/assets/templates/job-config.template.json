@@ -1,0 +1,36 @@
+{
+  "schema_version": "v6.0",
+  "job_id": "JOB-001",
+  "project_name": "PROJECT_NAME",
+  "operation": "3d_to_2d",
+  "release_intent": "engineering_enhanced",
+  "privacy_mode": "offline",
+  "status": "draft",
+  "inputs": [
+    {
+      "id": "INPUT-001",
+      "kind": "3d",
+      "format": "step",
+      "path": "INPUT.step",
+      "revision": "A",
+      "evidence_status": "pending"
+    }
+  ],
+  "drawing_profile": "drawing-profile.template.json",
+  "ambiguity_policy": "human_review",
+  "output_root": "OUTPUT_v6.0",
+  "outputs": [
+    "fcstd",
+    "step",
+    "pdf",
+    "dxf",
+    "png_preview",
+    "validation_report"
+  ],
+  "approval": {
+    "responsible_engineer": "",
+    "source_interpretation_approved": false,
+    "engineering_values_approved": false,
+    "release_approved": false
+  }
+}

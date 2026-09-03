@@ -1,0 +1,32 @@
+{
+  "schema_version": "v7.0",
+  "reference": {
+    "path": "TRUSTED.step",
+    "sha256": "",
+    "solid_count": 0,
+    "is_valid": false,
+    "volume_mm3": 0.0,
+    "bounds_mm": {}
+  },
+  "candidate": {
+    "path": "REBUILT.step",
+    "sha256": "",
+    "solid_count": 0,
+    "is_valid": false,
+    "volume_mm3": 0.0,
+    "bounds_mm": {}
+  },
+  "thresholds": {
+    "bound_tolerance_mm": 0.0001,
+    "volume_absolute_tolerance_mm3": 0.001,
+    "volume_relative_tolerance_ppm": 2.0
+  },
+  "comparison": {
+    "solid_count_match": false,
+    "bounds_match": false,
+    "volume_delta_mm3": 0.0,
+    "volume_delta_ppm": 0.0,
+    "volume_match": false
+  },
+  "status": "pending"
+}

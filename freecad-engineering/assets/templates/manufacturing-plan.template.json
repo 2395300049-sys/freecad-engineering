@@ -1,0 +1,53 @@
+{
+  "schema_version": "v5.0",
+  "parts": [
+    {
+      "part_number": "PART-001",
+      "revision": "A",
+      "material": "Controlled material specification and condition",
+      "blank": "Rectangular plate blank",
+      "annual_quantity": 100,
+      "batch_quantity": 20,
+      "primary_datums": [
+        "A",
+        "B",
+        "C"
+      ],
+      "process_route": [
+        {
+          "sequence": 10,
+          "operation": "rough and finish mill datum A",
+          "machine_or_process": "3-axis CNC mill",
+          "setup_datum": "raw blank",
+          "tool_access_reviewed": true,
+          "process_capability_reviewed": true,
+          "inspection": "flatness and thickness"
+        },
+        {
+          "sequence": 20,
+          "operation": "finish remaining features",
+          "machine_or_process": "3-axis CNC mill",
+          "setup_datum": "A|B|C",
+          "tool_access_reviewed": true,
+          "process_capability_reviewed": true,
+          "inspection": "CMM critical interfaces"
+        }
+      ],
+      "feature_reviews": [
+        {
+          "feature": "deep drilled hole",
+          "metric": "depth_to_diameter",
+          "actual": 6.0,
+          "recommended_limit": 8.0,
+          "approved_exception": false,
+          "exception_reason": ""
+        }
+      ],
+      "heat_treatment": "none",
+      "surface_treatment": "none",
+      "distortion_allowance_reviewed": true,
+      "deburr_and_edge_requirements": "Remove burrs and break unspecified sharp edges",
+      "inspection_plan": "Defined in drawing-release metadata"
+    }
+  ]
+}

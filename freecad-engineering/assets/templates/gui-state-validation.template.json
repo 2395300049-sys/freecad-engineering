@@ -1,0 +1,25 @@
+{
+  "schema_version": "v7.0",
+  "fcstd": "MODEL.FCStd",
+  "freecad_version": "",
+  "gui_document_present": false,
+  "view_provider_count": 0,
+  "visible_view_provider_count": 0,
+  "hidden_view_provider_count": 0,
+  "expected_occurrence_count": 0,
+  "visible_occurrence_count": 0,
+  "camera": {
+    "projection": "orthographic",
+    "height": null,
+    "position": null,
+    "orientation": null
+  },
+  "real_viewport": {
+    "image": "",
+    "width_px": 0,
+    "height_px": 0,
+    "nonwhite_pixel_ratio": 0.0,
+    "visual_review": "pending"
+  },
+  "status": "pending"
+}

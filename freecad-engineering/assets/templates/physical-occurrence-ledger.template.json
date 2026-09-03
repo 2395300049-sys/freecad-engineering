@@ -1,0 +1,42 @@
+{
+  "schema_version": "v7.0",
+  "assembly_id": "ASM-001",
+  "counts": {
+    "bom_rows": 1,
+    "geometry_families": 1,
+    "containers": 0,
+    "physical_occurrences": 1,
+    "solids": 1
+  },
+  "occurrences": [
+    {
+      "occurrence_id": "ASM-ITEM-01-01",
+      "bom_item": 1,
+      "part_number": "PART-001",
+      "part_name": "PART_NAME",
+      "definition_id": "GEOM-FAMILY-001",
+      "source_object": "REFERENCE_OBJECT_NAME",
+      "local_placement": {
+        "translation_mm": [0.0, 0.0, 0.0],
+        "rotation_quaternion": [0.0, 0.0, 0.0, 1.0]
+      },
+      "global_placement": {
+        "translation_mm": [0.0, 0.0, 0.0],
+        "rotation_quaternion": [0.0, 0.0, 0.0, 1.0]
+      },
+      "solid_count": 1,
+      "is_valid": true,
+      "bounds_mm": {
+        "x_min": 0.0,
+        "x_max": 0.0,
+        "y_min": 0.0,
+        "y_max": 0.0,
+        "z_min": 0.0,
+        "z_max": 0.0
+      },
+      "source_quantity": 1,
+      "reference_quantity": 1,
+      "quantity_status": "match"
+    }
+  ]
+}

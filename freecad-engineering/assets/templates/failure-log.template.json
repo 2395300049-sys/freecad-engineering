@@ -1,0 +1,20 @@
+{
+  "schema_version": "v7.0",
+  "project": "PROJECT_NAME",
+  "revision": "v7.0_r01",
+  "iterations": [
+    {
+      "iteration": 1,
+      "failure_id": "F45",
+      "category": "gui_visibility",
+      "symptom": "FCStd opens with a blank viewport",
+      "root_cause": "GuiDocument.xml missing after headless save",
+      "evidence": ["FCStd ZIP inventory", "user opening result"],
+      "changed_artifacts": ["MODEL.FCStd"],
+      "correction": "write type-aware visibility and fitAll camera with FreeCADGui",
+      "regression_tests": ["GUI state audit", "real viewport screenshot"],
+      "result": "pass",
+      "remaining_risk": "old in-memory document must be reopened"
+    }
+  ]
+}

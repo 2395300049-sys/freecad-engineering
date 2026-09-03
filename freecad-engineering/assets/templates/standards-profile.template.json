@@ -1,0 +1,25 @@
+{
+  "schema_version": "v5.0",
+  "profile_id": "STD-PROFILE-001",
+  "governing_family": "GB-T",
+  "units_system": "SI-mm",
+  "conflict_hierarchy": [
+    "applicable law and regulation",
+    "customer contract",
+    "industry safety standard",
+    "company standard",
+    "general drawing standard"
+  ],
+  "standards": [
+    {
+      "category": "technical drawing",
+      "identifier": "TO-BE-CONFIRMED",
+      "title": "Controlled title",
+      "edition": "TO-BE-CONFIRMED",
+      "source": "Official standards source",
+      "access_date": "2030-01-01",
+      "status": "unknown"
+    }
+  ],
+  "approved_crosswalks": []
+}

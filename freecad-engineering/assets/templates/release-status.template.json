@@ -1,0 +1,34 @@
+{
+  "schema": "freecad.release-status/v8",
+  "job_id": "",
+  "gates": {
+    "source_evidence": "pass",
+    "geometry": "pass",
+    "critical_dimensions": "pass",
+    "occurrence_placement": "not_applicable",
+    "step_exchange": "pass",
+    "gui_state": "pass",
+    "viewport": "pass",
+    "clean_room": "pass",
+    "assembly": "not_applicable",
+    "interference": "not_applicable",
+    "motion": "not_applicable",
+    "drawing": "not_applicable",
+    "manufacturing": "not_applicable",
+    "inspection": "not_applicable",
+    "service": "not_applicable",
+    "standards": "not_applicable"
+  },
+  "declared_states": {
+    "geometry_review_ready": true,
+    "engineering_review_ready": false,
+    "production_release_ready": false
+  },
+  "blocking_findings": [],
+  "production_approval": {
+    "approved": false,
+    "approver": null,
+    "date": null,
+    "scope": null
+  }
+}

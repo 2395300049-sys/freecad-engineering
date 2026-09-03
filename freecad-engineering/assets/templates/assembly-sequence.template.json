@@ -1,0 +1,38 @@
+{
+  "schema_version": "v5.0",
+  "assembly": "ASSEMBLY-001",
+  "all_components": [
+    "Frame_Link",
+    "Bearing_Link",
+    "Shaft_Link"
+  ],
+  "preinstalled_components": [
+    "Frame_Link"
+  ],
+  "steps": [
+    {
+      "id": "STEP-001",
+      "component": "Bearing_Link",
+      "action": "install",
+      "prerequisites": [],
+      "insertion_direction": [1, 0, 0],
+      "travel_mm": 30,
+      "tool": "bearing press fixture",
+      "inspection": "Verify seated against shoulder",
+      "reversible": true
+    },
+    {
+      "id": "STEP-002",
+      "component": "Shaft_Link",
+      "action": "install",
+      "prerequisites": [
+        "STEP-001"
+      ],
+      "insertion_direction": [1, 0, 0],
+      "travel_mm": 80,
+      "tool": "assembly guide",
+      "inspection": "Verify free rotation and endplay",
+      "reversible": true
+    }
+  ]
+}

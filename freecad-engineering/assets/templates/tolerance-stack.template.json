@@ -1,0 +1,33 @@
+{
+  "schema_version": "v5.0",
+  "monte_carlo_samples": 100000,
+  "random_seed": 12345,
+  "stacks": [
+    {
+      "id": "STACK-ENDPLAY-001",
+      "description": "Axial endplay",
+      "unit": "mm",
+      "target_min": 0.05,
+      "target_max": 0.25,
+      "terms": [
+        {
+          "name": "housing shoulder distance",
+          "nominal": 50.0,
+          "plus_tolerance": 0.05,
+          "minus_tolerance": 0.05,
+          "coefficient": 1.0,
+          "distribution": "uniform"
+        },
+        {
+          "name": "bearing stack",
+          "nominal": 49.85,
+          "plus_tolerance": 0.03,
+          "minus_tolerance": 0.03,
+          "coefficient": -1.0,
+          "distribution": "normal",
+          "sigma": 0.01
+        }
+      ]
+    }
+  ]
+}

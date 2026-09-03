@@ -1,0 +1,22 @@
+{
+  "schema_version": "v5.0",
+  "checks": [
+    {
+      "id": "CHECK-SHAFT-YIELD-001",
+      "component": "Input shaft",
+      "failure_mode": "yield",
+      "load_case": "LC-JAM",
+      "method": "analytical combined stress",
+      "standard_or_reference": "Project standards profile",
+      "demand": 220.0,
+      "allowable": 355.0,
+      "unit": "MPa",
+      "required_safety_factor": 1.5,
+      "calculated_safety_factor": 1.6136,
+      "evidence": "calculations/shaft-yield.pdf",
+      "reviewer": "Responsible engineer",
+      "status": "pass",
+      "limitations": "Material certificate pending"
+    }
+  ]
+}

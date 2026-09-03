@@ -1,0 +1,26 @@
+{
+  "schema_version": "v6.0",
+  "drawing_id": "DRAWING-001",
+  "annotations": [
+    {
+      "annotation_id": "ANN-001",
+      "part_id": "PART-001",
+      "feature_id": "FEATURE-001",
+      "annotation_type": "size_dimension",
+      "nominal_value": 0.0,
+      "unit": "mm",
+      "upper_deviation": null,
+      "lower_deviation": null,
+      "fit_code": null,
+      "datum_references": [],
+      "source_type": "source_drawing",
+      "source_locator": "page-1/view-A/dimension-1",
+      "engineering_class": "functional",
+      "critical_characteristic": false,
+      "manufacturing_method": "pending",
+      "inspection_method": "pending",
+      "status": "pending_confirmation",
+      "approved_by": ""
+    }
+  ]
+}

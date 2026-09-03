@@ -1,0 +1,92 @@
+{
+  "schema_version": "v5.0",
+  "project": {
+    "id": "PROJECT-ID",
+    "name": "Project name",
+    "revision": "A",
+    "task_mode": "new-design",
+    "confidentiality": "private",
+    "owner": "Project owner",
+    "design_authority": "Responsible engineer or organization",
+    "due_date": "2030-01-31"
+  },
+  "units": {
+    "length": "mm",
+    "mass": "kg",
+    "force": "N",
+    "torque": "N*m",
+    "pressure": "MPa",
+    "temperature": "degC",
+    "time": "s",
+    "angle": "deg"
+  },
+  "requirements": {
+    "primary_function": "Describe the measurable function",
+    "success_criteria": [
+      "Measurable acceptance criterion"
+    ],
+    "fixed_interfaces": [
+      "Interface datum and envelope that may not change"
+    ],
+    "prohibited_changes": []
+  },
+  "operating_conditions": {
+    "status": "confirmed",
+    "load_cases_file": "load-cases.json",
+    "life_target": "10000 operating hours",
+    "duty_cycle": "Describe duty cycle",
+    "environment": "Describe temperature, contamination, corrosion, and vibration"
+  },
+  "production": {
+    "prototype_quantity": 1,
+    "annual_quantity": 100,
+    "batch_quantity": 20,
+    "target_unit_cost": 1000.0,
+    "currency": "CNY",
+    "supplier_region": "CN",
+    "required_delivery_date": "2030-03-31"
+  },
+  "standards": {
+    "status": "confirmed",
+    "profile_file": "standards-profile.json"
+  },
+  "safety": {
+    "classification": "non-safety-critical",
+    "consequence_of_failure": "Describe consequence",
+    "required_review": "responsible-engineer"
+  },
+  "deliverables": [
+    "FreeCAD native assembly",
+    "STEP assembly",
+    "part drawings",
+    "assembly drawing",
+    "calculation report",
+    "BOM and sourcing report"
+  ],
+  "input_register": [
+    {
+      "id": "INPUT-001",
+      "field": "maximum_input_torque",
+      "status": "confirmed",
+      "value": 100.0,
+      "unit": "N*m",
+      "source": "Customer requirement CR-001",
+      "source_date": "2030-01-01",
+      "owner": "Mechanical lead",
+      "rationale": "",
+      "blocking": true
+    },
+    {
+      "id": "INPUT-002",
+      "field": "ambient_temperature_max",
+      "status": "assumed",
+      "value": 40.0,
+      "unit": "degC",
+      "source": "Pending site confirmation",
+      "source_date": "2030-01-01",
+      "owner": "System engineer",
+      "rationale": "Temporary concept-stage assumption",
+      "blocking": false
+    }
+  ]
+}

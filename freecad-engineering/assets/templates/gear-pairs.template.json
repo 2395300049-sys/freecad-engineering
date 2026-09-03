@@ -1,0 +1,29 @@
+{
+  "schema_version": "v5.0",
+  "gear_pairs": [
+    {
+      "id": "GEAR-PAIR-001",
+      "type": "bevel",
+      "driver": "Pinion_Link",
+      "follower": "Gear_Link",
+      "teeth_driver": 20,
+      "teeth_follower": 40,
+      "module_mm": 2.0,
+      "pressure_angle_deg": 20.0,
+      "shaft_angle_deg": 90.0,
+      "pitch_cone_driver_deg": 26.565051,
+      "pitch_cone_follower_deg": 63.434949,
+      "ratio_expected": -2.0,
+      "backlash_min_mm": 0.08,
+      "backlash_nominal_mm": 0.12,
+      "backlash_max_mm": 0.18,
+      "minimum_forbidden_clearance_mm": 0.5,
+      "motion_result": {
+        "sample_count": 180,
+        "full_required_cycle": true,
+        "max_forbidden_common_volume_mm3": 0.0,
+        "minimum_forbidden_clearance_mm": 0.8
+      }
+    }
+  ]
+}

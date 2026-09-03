@@ -1,0 +1,74 @@
+{
+  "schema_version": "v6.0",
+  "profile_id": "engineering-enhanced-default",
+  "display_name": "工程增强默认配置",
+  "release_intent": "engineering_enhanced",
+  "views": {
+    "strategy": "functional_feature_coverage",
+    "principal": true,
+    "sections": true,
+    "local_sections": true,
+    "removed_sections": true,
+    "detail_views": true,
+    "auxiliary_views": true,
+    "isometric_reference": false,
+    "exploded_assembly": false
+  },
+  "annotations": {
+    "functional_dimensions": true,
+    "manufacturing_dimensions": true,
+    "inspection_dimensions": true,
+    "datums": true,
+    "gdt": true,
+    "surface_roughness": true,
+    "threads_and_holes": true,
+    "gear_table": true,
+    "material": true,
+    "heat_treatment": true,
+    "process_notes": true,
+    "critical_characteristics": true
+  },
+  "tolerance": {
+    "enabled": true,
+    "mode": "engineering_suggested",
+    "general_tolerance": true,
+    "explicit_size_tolerances": true,
+    "fits": true,
+    "standards_profile_status": "pending",
+    "design_basis_complete": false,
+    "process_capability_confirmed": false,
+    "inspection_plan_complete": false
+  },
+  "assembly": {
+    "enabled": false,
+    "native_tree": true,
+    "joints_and_dof": true,
+    "bom": true,
+    "balloons": true,
+    "interference": true,
+    "full_travel_clearance": true,
+    "backlash_endplay_preload": true,
+    "assembly_sequence": true,
+    "service_path": true
+  },
+  "business_engineering": {
+    "manufacturing_route": true,
+    "cost_estimate": false,
+    "standard_part_selection": true,
+    "supplier_lead_time": false,
+    "strength_and_safety": false
+  },
+  "outputs": [
+    "pdf",
+    "dxf",
+    "png_preview",
+    "validation_report"
+  ],
+  "validation": {
+    "visual_render_check": true,
+    "annotation_collision_check": true,
+    "feature_coverage_check": true,
+    "semantic_annotation_check": true,
+    "model_drawing_revision_check": true
+  }
+}

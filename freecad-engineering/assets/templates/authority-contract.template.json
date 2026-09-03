@@ -1,0 +1,43 @@
+{
+  "schema_version": "v7.0",
+  "project": "PROJECT_NAME",
+  "revision": "v7.0_r01",
+  "authorities": {
+    "geometry": {
+      "source_id": "INPUT-STEP-001",
+      "scope": "exact B-Rep surfaces and solid geometry",
+      "status": "accepted"
+    },
+    "occurrence_placement": {
+      "source_id": "INPUT-STEP-001",
+      "scope": "global component placement",
+      "status": "accepted"
+    },
+    "bom_and_source_quantity": {
+      "source_id": "INPUT-PDF-001",
+      "scope": "item names and source quantities",
+      "status": "accepted-with-conflicts"
+    },
+    "dimensions_tolerances_notes": {
+      "source_id": "INPUT-PDF-001",
+      "scope": "explicit nominal dimensions, fits, tolerances, notes and title-block data",
+      "status": "accepted"
+    },
+    "engineering_suggestions": {
+      "source_id": "ENGINEERING-REVIEW",
+      "scope": "proposed datums, GD&T, process and inspection requirements",
+      "status": "unreleased"
+    }
+  },
+  "conflicts": [
+    {
+      "conflict_id": "CONFLICT-001",
+      "data_class": "bom_quantity",
+      "source_value": 10,
+      "reference_value": 4,
+      "selected_behavior": "preserve trusted placements and source quantity separately",
+      "release_blocking": true,
+      "resolution_owner": "responsible_engineer"
+    }
+  ]
+}

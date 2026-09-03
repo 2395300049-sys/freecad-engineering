@@ -1,0 +1,24 @@
+{
+  "schema_version": "v6.0",
+  "comparison_id": "COMPARE-001",
+  "comparison_type": "source_2d_to_generated_2d",
+  "reference": "SOURCE.pdf",
+  "candidate": "GENERATED.pdf",
+  "checks": {
+    "sheet_and_scale": true,
+    "view_placement": true,
+    "geometry_edges": true,
+    "sections_and_hatching": true,
+    "centerlines": true,
+    "dimension_values": true,
+    "tolerance_states": true,
+    "symbols_and_notes": true,
+    "bom_and_title_block": true,
+    "feature_coverage": true
+  },
+  "acceptance": {
+    "require_no_missing_critical_features": true,
+    "require_no_unapproved_dimension_conflicts": true,
+    "require_manual_visual_review": true
+  }
+}

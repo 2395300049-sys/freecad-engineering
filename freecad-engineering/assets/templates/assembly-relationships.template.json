@@ -1,0 +1,32 @@
+{
+  "schema_version": "v5.0",
+  "root_assembly": "Assembly",
+  "grounded_component": "Frame_Link",
+  "components": [
+    {
+      "occurrence": "Frame_Link",
+      "part_number": "FRAME-001",
+      "revision": "A",
+      "quantity_index": 1,
+      "intended_free_dof": 0
+    },
+    {
+      "occurrence": "InputShaft_Link",
+      "part_number": "SHAFT-001",
+      "revision": "A",
+      "quantity_index": 1,
+      "intended_free_dof": 1
+    }
+  ],
+  "joints": [
+    {
+      "name": "Revolute_InputShaft_Frame",
+      "type": "Revolute",
+      "component_1": "InputShaft_Link",
+      "component_2": "Frame_Link",
+      "reference_1": "InputShaftAxis",
+      "reference_2": "InputBearingAxis",
+      "purpose": "Allow shaft rotation only"
+    }
+  ]
+}

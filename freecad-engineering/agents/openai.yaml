@@ -1,0 +1,4 @@
+interface:
+  display_name: "FreeCAD Engineering"
+  short_description: "Evidence-controlled FreeCAD design, validation, and release"
+  default_prompt: "Use $freecad-engineering to build or audit this FreeCAD engineering deliverable with traceable evidence and explicit release gates."

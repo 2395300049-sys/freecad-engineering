@@ -1,0 +1,39 @@
+{
+  "schema_version": "v5.0",
+  "drawings": [
+    {
+      "drawing_number": "PART-001-DWG",
+      "title": "Example housing",
+      "revision": "A",
+      "drawing_type": "part",
+      "model_revision": "A",
+      "sheet_size": "A3",
+      "sheet_count": 1,
+      "scale": "1:1",
+      "units": "mm",
+      "projection": "first-angle",
+      "standards_profile": "STD-PROFILE-001",
+      "material": "Material specification and condition",
+      "general_tolerance": "Defined by controlled profile",
+      "datum_scheme": [
+        "A",
+        "B",
+        "C"
+      ],
+      "functional_dimensions_count": 12,
+      "explicit_tolerance_count": 8,
+      "gdandt_controls_count": 4,
+      "surface_texture_controls_count": 3,
+      "process_notes_count": 2,
+      "critical_characteristics": [
+        "CTQ-001 bore position"
+      ],
+      "bom_present": false,
+      "balloons_present": false,
+      "title_block_complete": true,
+      "visual_pdf_checked": true,
+      "model_drawing_revision_match": true,
+      "approved_by": "Responsible engineer"
+    }
+  ]
+}

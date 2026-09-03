@@ -1,0 +1,35 @@
+{
+  "schema_version": "v5.0",
+  "motions": [
+    {
+      "id": "MOTION-001",
+      "driver": {
+        "object": "DriverGear",
+        "axis_origin_mm": [0, 0, 0],
+        "axis_direction": [0, 0, 1],
+        "start_deg": 0,
+        "end_deg": 360
+      },
+      "followers": [
+        {
+          "object": "FollowerGear",
+          "axis_origin_mm": [50, 0, 0],
+          "axis_direction": [0, 0, 1],
+          "angle_ratio": -0.5,
+          "phase_deg": 0
+        }
+      ],
+      "samples": 72,
+      "complete_required_travel": true,
+      "excluded_static_patterns": [
+        "DriverShaft",
+        "FollowerShaft"
+      ],
+      "allowed_moving_pairs": [
+        ["DriverGear", "FollowerGear"]
+      ],
+      "minimum_required_clearance_mm": 0.5,
+      "volume_tolerance_mm3": 0.00001
+    }
+  ]
+}

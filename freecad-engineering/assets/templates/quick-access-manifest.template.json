@@ -1,0 +1,23 @@
+{
+  "schema_version": "v7.0",
+  "project": "PROJECT_NAME",
+  "revision": "v7.0_r01",
+  "release_state": "engineering-review-required",
+  "files": [
+    {
+      "name": "MODEL.FCStd",
+      "role": "accepted FreeCAD model",
+      "size_bytes": 0,
+      "sha256": ""
+    }
+  ],
+  "quality_gates": {
+    "geometry": false,
+    "step_roundtrip": false,
+    "drawing": false,
+    "gui_visibility": false,
+    "real_viewport": false,
+    "cleanroom_rebuild": false
+  },
+  "blocking_items": []
+}
